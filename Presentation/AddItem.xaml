@@ -1,0 +1,24 @@
+﻿<Window x:Class="Presentation.AddItem"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Presentation"
+        mc:Ignorable="d"
+        Title="AddItem" Height="450" Width="519">
+    <Grid>
+        <TextBox x:Name="txtItemName" HorizontalAlignment="Left" Height="30" Margin="260,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:Name="txtUnit" HorizontalAlignment="Left" Height="30" Margin="260,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:Name="txtCost" HorizontalAlignment="Left" Height="30" Margin="260,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:Name="txtItemType" HorizontalAlignment="Left" Height="30" Margin="260,205,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:Name="txtProvider" HorizontalAlignment="Left" Height="30" Margin="260,260,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <Label Content="Please Enter The Item's Name:" HorizontalAlignment="Left" Height="30" Margin="55,50,0,0" VerticalAlignment="Top" Width="200"/>
+        <Label Content="Please Enter The Unit:" HorizontalAlignment="Left" Height="30" Margin="55,100,0,0" VerticalAlignment="Top" Width="200"/>
+        <Label Content="Please Enter The Cost:" HorizontalAlignment="Left" Height="30" Margin="55,150,0,0" VerticalAlignment="Top" Width="200"/>
+        <Label Content="Please Enter The Item's Type( veg, &#xD;&#xA;meat etc.):" HorizontalAlignment="Left" Height="50" Margin="55,205,0,0" VerticalAlignment="Top" Width="200"/>
+        <Label Content="Please Enter The Provider's Name:" HorizontalAlignment="Left" Height="30" Margin="55,260,0,0" VerticalAlignment="Top" Width="200"/>
+        <Button x:Name="btnAdd" Content="Add Item" HorizontalAlignment="Left" Height="50" Margin="370,335,0,0" VerticalAlignment="Top" Width="90" Click="btnAdd_Click"/>
+        <Button x:Name="btnBack" Content="Go Back" HorizontalAlignment="Left" Height="50" Margin="55,335,0,0" VerticalAlignment="Top" Width="90" Click="btnBack_Click"/>
+
+    </Grid>
+</Window>
